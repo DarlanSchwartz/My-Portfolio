@@ -1,0 +1,377 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+header img{
+    width: 50px;
+    height:50px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header button
+{
+    border: 0;
+    background-color: white;
+    border-radius: 20px;
+    width: 100px;
+    height: 25px;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+.header-buttons{
+    margin-right: 20px;
+}
+
+header button:hover
+{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(37, 37, 37);
+    
+}
+
+.guy-picture
+{
+    width: 190px;
+    height: 220px;
+    position: absolute;
+    bottom: -13px;
+}
+
+.main-intro
+{
+    position: relative;
+    height: 96vh;
+    border-bottom: 30px solid gray;
+    width: 100%;
+}
+
+.main-intro, .brief-intro
+{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+
+.main-intro h1{
+    margin-top: 50px;
+    font-size: 6vmin;
+    color: white;
+    transition-delay: 200ms;
+    text-align: center;
+}
+
+.main-intro h2{
+    font-size: 4vmin;
+    margin-top: 20px;
+    color: white;
+    transition-delay: 400ms;
+    text-align: center;
+}
+
+.brief-intro
+{
+    width: 100%;
+    border-top: 2px solid rgb(70, 70, 70);
+    height: 96vh;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.text-brief
+{
+    width: 47%;
+    display: flex;
+    margin-right: 20px;
+    flex-direction: column;
+    align-self: top;
+}
+
+.brief-intro img
+{
+    width: 47%;
+    height: 70%;
+    object-fit:cover;
+    border: 1px solid rgb(194, 194, 194);
+    margin-left: 20px;
+    
+}
+
+.text-brief h1{
+    font-size: 25px;
+    margin-top: 10px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    transition-delay: 200ms;
+    max-height: 100%;
+}
+
+.text-brief p
+{
+    font-size: 3vmin;
+    text-align: center;
+    margin-top: 10px;
+    width: 60%;
+    margin-bottom: 30px;
+    color: white;
+    width: 100%;
+    transition-delay: 400ms;
+}
+
+.softwares-and-languages{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    gap: 2vmin;
+    max-width: 100%;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+}
+
+.softwares-and-languages h1
+{
+    color: white;
+    font-size: 4vmin;
+    margin-top: 40px;
+    align-self: top;
+    transition-delay: 200ms;
+}
+
+.soft-lang-icons img, .software-icons img
+{
+    height: 8vmin;
+    user-select: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none; 
+}
+
+.soft-lang-icons, .software-icons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    gap: 2vmin;
+}
+
+
+.soft-lang-icons .icon1{
+    transition-delay: 100ms;
+}
+.soft-lang-icons .icon2 {
+    transition-delay: 200ms;
+}
+.soft-lang-icons .icon3 {
+    transition-delay: 300ms;
+}
+.soft-lang-icons .icon4{
+    transition-delay: 400ms;
+}
+.soft-lang-icons .icon5 {
+    transition-delay: 500ms;
+}
+
+.soft-lang-icons .icon6{
+    transition-delay: 600ms;
+}
+
+.soft-lang-icons .icon7{
+    transition-delay: 700ms;
+}
+
+.soft-lang-icons .icon8{
+    transition-delay: 800ms;
+}
+
+.soft-lang-icons .icon9{
+    transition-delay: 900ms;
+}
+.soft-lang-icons .icon10{
+    transition-delay: 950ms;
+}
+
+.software-icons .icon1{
+    transition-delay: 900ms;
+}
+.software-icons .icon2{
+    transition-delay: 950ms;
+}
+.software-icons .icon3{
+    transition-delay: 960ms;
+}
+
+
+
+
+
+.recent-projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    font-size: 4vmin;
+}
+
+.recent-projects h1
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.projects-list
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project{
+    width: 50vw;
+    height: 350px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.project h1{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    z-index: 3;
+    font-size: 3vmin;
+}
+
+.preview-project{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.preview-project:hover img
+{
+    filter: blur(10px);
+}
+
+.preview-project img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: all 200ms ease;
+}
+
+.gradient{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.747) 65.62%, rgba(0, 0, 0, 0.9) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.hidden
+{
+    opacity: 0;
+    transition: all 1s;
+    transform: translateX(-100%);
+    filter: blur(5px);
+}
+
+.hidden2
+{
+    opacity: 0;
+    transition: all 1s;
+    transform: translateX(100%);
+    filter: blur(5px);
+}
+
+.hidden3
+{
+    opacity: 0;
+    transition: all 1s;
+    transform: translateX(-400%);
+    filter: blur(5px);
+}
+
+.show
+{
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+}
+
+body{
+    overflow: hidden;
+    position: relative;
+}
+
+.down-btn ,.up-btn{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(0, 0, 0,0.5);
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    color: white;
+    border: 1px solid white; 
+}
+
+.navigation-buttons{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 6;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.not-active{
+    display: none;
+}
+
